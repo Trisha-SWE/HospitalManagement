@@ -20,7 +20,6 @@ if ($insert){
 ?>
 
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -614,13 +613,7 @@ integrity="sha512-eSeh0V+8U3qoxFnK3KgBsM69hrMOGMBy3CNxq/T4BArsSQJfKVsKb5joMqIPrN
 <!-- footer section ends -->
 
 
-
-
-
-
-
-
-  	<!-- notification message -->
+  <!-- notification message -->
   	<?php if (isset($_SESSION['success'])) : ?>
           <?php 
           	echo $_SESSION['success']; 
