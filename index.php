@@ -626,25 +626,5 @@ integrity="sha512-eSeh0V+8U3qoxFnK3KgBsM69hrMOGMBy3CNxq/T4BArsSQJfKVsKb5joMqIPrN
     	<p> <a href="index.php?logout='1'" style="color: red;">logout</a> </p>
     <?php endif ?>
 
-    
-  
-    
-    
-    
-    <script>
-const cars = ["BMW", "Volvo", "Saab", "Ford"];
-
-let i = 0;
-let text = "";
-while (cars[i]) {
-  text += cars[i] + "<br>";
-  i++;
-}
-
-document.getElementById("demo").innerHTML = text;
-</script>
-<!-- custom js file link  -->
-<script src="js/script.js"></script>
-
 </body>
 </html>
