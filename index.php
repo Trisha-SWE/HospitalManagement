@@ -19,7 +19,6 @@ if ($insert){
 }
 ?>
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -627,6 +626,27 @@ integrity="sha512-eSeh0V+8U3qoxFnK3KgBsM69hrMOGMBy3CNxq/T4BArsSQJfKVsKb5joMqIPrN
     	<p> <a href="index.php?logout='1'" style="color: red;">logout</a> </p>
     <?php endif ?>
 
+    
+      <!-- logged in user information -->  <!-- logged in user information -->  <!-- logged in user information -->  <!-- logged in user information -->
+<script>
+let answer1 = "It's alright";
+let answer2 = "He is called 'Johnny'";
+let answer3 = 'He is called "Johnny"'; 
+
+document.getElementById("demo").innerHTML =
+answer1 + "<br>" + answer2 + "<br>" + answer3; 
+</script>
+    
+    
+<script>
+let answer1 = "It's alright";
+let answer2 = "He is called 'Johnny'";
+let answer3 = 'He is called "Johnny"'; 
+
+document.getElementById("demo").innerHTML =
+answer1 + "<br>" + answer2 + "<br>" + answer3; 
+</script>
+      <!-- logged in user information -->  <!-- logged in user information -->  <!-- logged in user information -->  <!-- logged in user information -->  <!-- logged in user information -->
 
 <!-- custom js file link  -->
 <script src="js/script.js"></script>
