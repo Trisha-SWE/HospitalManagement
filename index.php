@@ -628,6 +628,21 @@ integrity="sha512-eSeh0V+8U3qoxFnK3KgBsM69hrMOGMBy3CNxq/T4BArsSQJfKVsKb5joMqIPrN
 
     
   
+    
+    
+    
+    <script>
+const cars = ["BMW", "Volvo", "Saab", "Ford"];
+
+let i = 0;
+let text = "";
+while (cars[i]) {
+  text += cars[i] + "<br>";
+  i++;
+}
+
+document.getElementById("demo").innerHTML = text;
+</script>
 <!-- custom js file link  -->
 <script src="js/script.js"></script>
 
