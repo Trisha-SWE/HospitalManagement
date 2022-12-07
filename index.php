@@ -1,4 +1,23 @@
+<!--Appointment Form Connect to MySQL Database -->
+<?php
+$conn = mysqli_connect('localhost','root','','appointment_db') or die('connection failed');
+if(isset($_POST['submit'])){
+    $name = mysqli_real_escape_string($conn, $_POST['name']);
+    $number = $_POST['number'];
+    $email = mysqli_real_escape_string($conn, $_POST['email']);
+    $gender = $_POST['gender'];
+    $district = $_POST['district'];
+    $disease = $_POST['disease'];
+    $date = $_POST['date'];
 
+    $insert = mysqli_query($conn, "INSERT INTO `appointment_form`(name, number, email, gender, district, disease, date) VALUES('$name','$number','$email','$gender','$district','$disease','$date')") or die('query failed');
+if ($insert){
+    $message[] = 'congratulations! appointment made successfully!';
+}else{
+       $message[] = 'appointment failed, please try again';
+     }
+}
+?>
 
 <!DOCTYPE html>
 <html lang="en">
