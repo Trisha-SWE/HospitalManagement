@@ -71,8 +71,6 @@ integrity="sha512-eSeh0V+8U3qoxFnK3KgBsM69hrMOGMBy3CNxq/T4BArsSQJfKVsKb5joMqIPrN
 
 
 
-
-
 <!-- Doctor Registartion Full Section Start -->
 <div class="container" id="container">
 				<div class="form-container  sign-up-container">
@@ -123,7 +121,6 @@ integrity="sha512-eSeh0V+8U3qoxFnK3KgBsM69hrMOGMBy3CNxq/T4BArsSQJfKVsKb5joMqIPrN
 <!-- Doctor Registartion Section PHP Database Start -->
 <?php
 // connect to the database
-// initializing variables
 $username = "";
 $email    = "";
 $errors = array(); 
@@ -131,8 +128,7 @@ $errors = array();
 // connect to the database
 $conn = mysqli_connect('localhost', 'root', '', 'appointment_db');
 
-	
-	// REGISTER USER
+// REGISTER USER
 if (isset($_POST['dr_reg'])) {
   // receive all input values from the form
   $username = mysqli_real_escape_string($conn, $_POST['username']);
@@ -140,16 +136,14 @@ if (isset($_POST['dr_reg'])) {
   $password_1 = mysqli_real_escape_string($conn, $_POST['password_1']);
   $password_2 = mysqli_real_escape_string($conn, $_POST['password_2']);
 
-  // form validation: ensure that the form is correctly filled ...
-  // by adding (array_push()) corresponding error unto $errors array
+
   if (empty($username)) { array_push($errors, "Username is required"); }
   if (empty($email)) { array_push($errors, "Email is required"); }
   if (empty($password_1)) { array_push($errors, "Password is required"); }
   if ($password_1 != $password_2) {
 	array_push($errors, "The two passwords do not match");
   }
-  // first check the database to make sure 
-  // a user does not already exist with the same username and/or email
+
   $user_check_query = "SELECT * FROM users WHERE username='$username' OR email='$email' LIMIT 1";
   $result = mysqli_query($conn, $user_check_query);
   $user = mysqli_fetch_assoc($result);
@@ -177,7 +171,6 @@ if (isset($_POST['dr_reg'])) {
   }
 }
 ?>
-
 
 <!-- Doctor Registartion Section PHP Database End -->
 <!-- Doctor Registartion Full Section End -->
@@ -376,7 +369,7 @@ signInButton.addEventListener("click", () => {
         <div class="box">
             <h3>follow us</h3>
             <a href="#" target=”_blank”> <i class="fab fa-twitter"></i> twitter </a>
-            <a href="#" target=”_blank”> <i class="fab fa-linkedin"></i> Linkedin </a>
+            <a href="https://github.com/NafizNoyon/HospitalManagement" target=”_blank”> <i class="fab fa-linkedin"></i> Linkedin </a>
             <a href="#" target=”_blank”> <i class="fab fa-youtube"></i>YouTube </a>
             <a href="https://www.facebook.com/SWE480/" target=”_blank”> <i class="fab fa-facebook-f"></i> FaceBook </a>
             <a href="#" target=”_blank”> <i class="fab fa-instagram"></i> Instagram </a>
