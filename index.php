@@ -19,6 +19,9 @@ if ($insert){
 }
 ?>
 
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -30,7 +33,6 @@ if ($insert){
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
 
 <!-- Live Search Jquery CDN link Link -->
-
 <script
   src="https://code.jquery.com/jquery-3.6.1.js"
   integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
@@ -47,14 +49,19 @@ integrity="sha512-eSeh0V+8U3qoxFnK3KgBsM69hrMOGMBy3CNxq/T4BArsSQJfKVsKb5joMqIPrN
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
-    <!-- custom css file link  -->
+    <!-- css file link  -->
     <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
+
+
+
+
+
+
     
 <!-- header section starts  -->
-
 <header class="header">
 
     <a href="#" class="logo"> <i class="fas fa-heartbeat"></i>Health<span>School</span>24</a>
@@ -80,11 +87,14 @@ integrity="sha512-eSeh0V+8U3qoxFnK3KgBsM69hrMOGMBy3CNxq/T4BArsSQJfKVsKb5joMqIPrN
     <div id="menu-btn" class="fas fa-bars"></div>
 
 </header>
-
 <!-- header section ends -->
 
-<!-- home section starts  -->
 
+
+
+
+
+<!-- home section starts  -->
 <section class="home" id="home">
 
     <div class="image">
@@ -98,11 +108,13 @@ integrity="sha512-eSeh0V+8U3qoxFnK3KgBsM69hrMOGMBy3CNxq/T4BArsSQJfKVsKb5joMqIPrN
     </div>
 
 </section>
-
 <!-- home section ends -->
 
-<!-- icons section starts  -->
 
+
+
+
+<!-- icons section starts  -->
 <section class="icons-container">
 
     <div class="icons">
@@ -130,11 +142,16 @@ integrity="sha512-eSeh0V+8U3qoxFnK3KgBsM69hrMOGMBy3CNxq/T4BArsSQJfKVsKb5joMqIPrN
     </div>
 
 </section>
-
 <!-- icons section ends -->
 
-<!-- services section starts  -->
 
+
+
+
+
+
+
+<!-- services section starts  -->
 <section class="services" id="services">
 
     <h1 class="heading"> our <span>services</span> </h1>
@@ -193,11 +210,19 @@ integrity="sha512-eSeh0V+8U3qoxFnK3KgBsM69hrMOGMBy3CNxq/T4BArsSQJfKVsKb5joMqIPrN
     </div>
 
 </section>
-
 <!-- services section ends -->
 
-<!-- doctors section starts  -->
 
+
+
+
+
+
+
+
+
+
+<!-- doctors section starts  -->
 <section class="doctors" id="doctors">
 <div class="row">
         <form action="">
@@ -212,7 +237,7 @@ integrity="sha512-eSeh0V+8U3qoxFnK3KgBsM69hrMOGMBy3CNxq/T4BArsSQJfKVsKb5joMqIPrN
 
         <div class="box">
             <img src="image/doc-1.jpg" alt="">
-            <h3>john deo</h3>
+            <h3>Dr. Nasimul Islam</h3>
             <span>expert doctor</span>
             <div class="share">
                 <a href="#" class="fab fa-facebook-f"></a>
@@ -224,7 +249,7 @@ integrity="sha512-eSeh0V+8U3qoxFnK3KgBsM69hrMOGMBy3CNxq/T4BArsSQJfKVsKb5joMqIPrN
 
         <div class="box">
             <img src="image/doc-2.jpg" alt="">
-            <h3>john deo</h3>
+            <h3>Dr. Nafiz</h3>
             <span>expert doctor</span>
             <div class="share">
                 <a href="#" class="fab fa-facebook-f"></a>
@@ -236,7 +261,7 @@ integrity="sha512-eSeh0V+8U3qoxFnK3KgBsM69hrMOGMBy3CNxq/T4BArsSQJfKVsKb5joMqIPrN
 
         <div class="box">
             <img src="image/doc-3.jpg" alt="">
-            <h3>john deo</h3>
+            <h3>Dr. Nayem</h3>
             <span>expert doctor</span>
             <div class="share">
                 <a href="#" class="fab fa-facebook-f"></a>
@@ -248,7 +273,7 @@ integrity="sha512-eSeh0V+8U3qoxFnK3KgBsM69hrMOGMBy3CNxq/T4BArsSQJfKVsKb5joMqIPrN
 
         <div class="box">
             <img src="image/doc-4.jpg" alt="">
-            <h3>john deo</h3>
+            <h3>Dr. Noyon</h3>
             <span>expert doctor</span>
             <div class="share">
                 <a href="#" class="fab fa-facebook-f"></a>
@@ -260,7 +285,7 @@ integrity="sha512-eSeh0V+8U3qoxFnK3KgBsM69hrMOGMBy3CNxq/T4BArsSQJfKVsKb5joMqIPrN
 
         <div class="box">
             <img src="image/doc-5.jpg" alt="">
-            <h3>john deo</h3>
+            <h3>Dr. Nafiz</h3>
             <span>expert doctor</span>
             <div class="share">
                 <a href="#" class="fab fa-facebook-f"></a>
@@ -272,7 +297,7 @@ integrity="sha512-eSeh0V+8U3qoxFnK3KgBsM69hrMOGMBy3CNxq/T4BArsSQJfKVsKb5joMqIPrN
 
         <div class="box">
             <img src="image/doc-6.jpg" alt="">
-            <h3>john deo</h3>
+            <h3>Dr. Shakib</h3>
             <span>expert doctor</span>
             <div class="share">
                 <a href="#" class="fab fa-facebook-f"></a>
@@ -287,6 +312,13 @@ integrity="sha512-eSeh0V+8U3qoxFnK3KgBsM69hrMOGMBy3CNxq/T4BArsSQJfKVsKb5joMqIPrN
 </section>
 
 <!-- doctors section ends -->
+
+
+
+
+
+
+
 
 <!-- Appointment booking section starts   -->
 
@@ -325,7 +357,7 @@ integrity="sha512-eSeh0V+8U3qoxFnK3KgBsM69hrMOGMBy3CNxq/T4BArsSQJfKVsKb5joMqIPrN
 <select name="district" class="box2" required>
                 <option value=""> --District--</option>
                 <option value="Dhaka"> Dhaka</option>
-                <option value="Rajshahi"> Rajshahi Rajshahi</option>
+                <option value="Rajshahi"> Rajshahi</option>
                 <option value="Rangpur"> Rangpur</option>
                 <option value="Khulna"> Khulna</option>
                 <option value="Barishal"> Barishal</option>
@@ -377,13 +409,15 @@ integrity="sha512-eSeh0V+8U3qoxFnK3KgBsM69hrMOGMBy3CNxq/T4BArsSQJfKVsKb5joMqIPrN
             </select>
 <!-- Department DropDown Box End -->
 
+
+
 <!-- Doctor DropDown Box Start -->
 <select name="doctor" class="box2" required>
                 <option value=""> --Doctor--</option>
-                <option value="Nayem"> Nayem Rajshahi Rajshahi Rajshahi </option>
-                <option value="Noyon"> Noyon </option>
-                <option value="Nafiz"> Nafiz </option>
-                <option value="Shakib"> Shakib </option>
+                <option value="Nayem"> Dr. Nasimul Islam  </option>
+                <option value="Noyon"> Dr. Nafiz </option>
+                <option value="Nafiz"> Dr. Nayem </option>
+                <option value="Shakib"> Dr. Noyon </option>
 
             </select>
 <!--
@@ -400,7 +434,7 @@ integrity="sha512-eSeh0V+8U3qoxFnK3KgBsM69hrMOGMBy3CNxq/T4BArsSQJfKVsKb5joMqIPrN
                         }
                         else if(disease.value == "Pimple")
                         {
-                            var optionArray = ['shakib|Shakib','nafiz|Nafiz'];
+                            var optionArray = ['shakib|Shakib','nafiz|Nafizul'];
                         }
                         for(var option in optionArray)
                         {
@@ -416,12 +450,6 @@ integrity="sha512-eSeh0V+8U3qoxFnK3KgBsM69hrMOGMBy3CNxq/T4BArsSQJfKVsKb5joMqIPrN
 -->
 <!-- Doctor DropDown Box End -->
 
-
-
-
-
-
-
             <input type="datetime-local" name="date" class="box">
             <input type="submit" value="Book Now" name="submit" class="btn">
         </form>
@@ -429,11 +457,16 @@ integrity="sha512-eSeh0V+8U3qoxFnK3KgBsM69hrMOGMBy3CNxq/T4BArsSQJfKVsKb5joMqIPrN
     </div>
 
 </section>
+<!-- Appointment booking section Ends  -->
 
-<!-- booking section ends -->
+
+
+
+
+
+
 
 <!-- review section starts  -->
-
 <section class="review" id="review">
     
     <h1 class="heading"> client's <span>review</span> </h1>
@@ -442,7 +475,7 @@ integrity="sha512-eSeh0V+8U3qoxFnK3KgBsM69hrMOGMBy3CNxq/T4BArsSQJfKVsKb5joMqIPrN
 
         <div class="box">
             <img src="image/pic-1.png" alt="">
-            <h3>john deo</h3>
+            <h3>Nafizul</h3>
             <div class="stars">
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -455,7 +488,7 @@ integrity="sha512-eSeh0V+8U3qoxFnK3KgBsM69hrMOGMBy3CNxq/T4BArsSQJfKVsKb5joMqIPrN
 
         <div class="box">
             <img src="image/pic-2.png" alt="">
-            <h3>john deo</h3>
+            <h3>Nishat</h3>
             <div class="stars">
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -468,7 +501,7 @@ integrity="sha512-eSeh0V+8U3qoxFnK3KgBsM69hrMOGMBy3CNxq/T4BArsSQJfKVsKb5joMqIPrN
 
         <div class="box">
             <img src="image/pic-3.png" alt="">
-            <h3>john deo</h3>
+            <h3>Habib</h3>
             <div class="stars">
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -482,8 +515,14 @@ integrity="sha512-eSeh0V+8U3qoxFnK3KgBsM69hrMOGMBy3CNxq/T4BArsSQJfKVsKb5joMqIPrN
     </div>
 
 </section>
-
 <!-- review section ends -->
+
+
+
+
+
+
+
 
 <!-- blogs section starts  -->
 
@@ -541,11 +580,16 @@ integrity="sha512-eSeh0V+8U3qoxFnK3KgBsM69hrMOGMBy3CNxq/T4BArsSQJfKVsKb5joMqIPrN
     </div>
 
 </section>
-
 <!-- blogs section ends -->
 
-<!-- about section starts  -->
 
+
+
+
+
+
+
+<!-- about section starts  -->
 <section class="about" id="about">
     <h1 class="heading"> <span>about</span> us </h1>
 
@@ -565,8 +609,13 @@ integrity="sha512-eSeh0V+8U3qoxFnK3KgBsM69hrMOGMBy3CNxq/T4BArsSQJfKVsKb5joMqIPrN
     </div>
 
 </section>
-
 <!-- about section ends -->
+
+
+
+
+
+
 
 <!-- footer section starts  -->
 
@@ -595,23 +644,29 @@ integrity="sha512-eSeh0V+8U3qoxFnK3KgBsM69hrMOGMBy3CNxq/T4BArsSQJfKVsKb5joMqIPrN
             39fc1865e39031e7:0xeababc07e0970dc9!2sBonpara!3b1!8m2!3d24.2942372!4d89.0812158!3m4!1s0x39fc186ed5d9016b:0xd27
             7d90ecc5a4a78!8m2!3d24.2983948!4d89.0792862" target=”_blank”> <i class="fas fa-map-marker-alt"></i> Rajshahi, Bangladesh - 6430 </a>
         </div>
-
         <div class="box">
             <h3>follow us</h3>
             <a href="#" target=”_blank”> <i class="fab fa-twitter"></i> twitter </a>
-            <a href="#" target=”_blank”> <i class="fab fa-linkedin"></i> Linkedin </a>
+            <a href="https://github.com/NafizNoyon/HospitalManagement" target=”_blank”> <i class="fab fa-linkedin"></i> Linkedin </a>
             <a href="#" target=”_blank”> <i class="fab fa-youtube"></i>YouTube </a>
-            <a href="https://www.facebook.com/SWE480/" target=”_blank”> <i class="fab fa-facebook-f"></i> FaceBook </a>
+            <a href="https://www.facebook.com/nafiz.swe.diu/" target=”_blank”> <i class="fab fa-facebook-f"></i> FaceBook </a>
             <a href="#" target=”_blank”> <i class="fab fa-instagram"></i> Instagram </a>
         </div>
     </div>
 
-    <div class="credit"><footer>&copy; 2022 HealthSchool24.com | All rights reserved | Created by-<a href="https://www.facebook.com/SWE480/" target=”_blank”><span> Nafizul Islam Noyon</span></a></footer>   </div>
+    <div class="credit"><footer>&copy; 2022 HealthSchool24.com | All rights reserved | Created by-<a href="https://www.facebook.com/nafiz.swe.diu/" target=”_blank”><span> Nafizul Islam Noyon</span></a></footer>   </div>
 </section>
-
 <!-- footer section ends -->
 
-  <!-- notification message -->
+
+
+
+
+
+
+
+
+<!-- notification message -->
   	<?php if (isset($_SESSION['success'])) : ?>
           <?php 
           	echo $_SESSION['success']; 
@@ -624,9 +679,9 @@ integrity="sha512-eSeh0V+8U3qoxFnK3KgBsM69hrMOGMBy3CNxq/T4BArsSQJfKVsKb5joMqIPrN
     	<p>Welcome <strong><?php echo $_SESSION['username']; ?></strong></p>
     	<p> <a href="index.php?logout='1'" style="color: red;">logout</a> </p>
     <?php endif ?>
-    
-   
 
 
+<!--  js file link  -->
+<script src="js/script.js"></script>
 </body>
 </html>
