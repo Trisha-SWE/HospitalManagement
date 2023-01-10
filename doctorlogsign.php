@@ -340,49 +340,6 @@ signInButton.addEventListener("click", () => {
 
 
 
-<!-- footer section starts  -->
-<section class="footer" id="contact">
-   <h1 class="heading"> <span>Contact</span> Us </h1>
 
-    <div class="box-container">
-
-        <div class="box">
-            <h3>our services</h3>
-            <a href="#"> <i class="fas fa-chevron-right"></i> dental care </a>
-            <a href="#"> <i class="fas fa-chevron-right"></i> message therapy </a>
-            <a href="#"> <i class="fas fa-chevron-right"></i> cardioloty </a>
-            <a href="#"> <i class="fas fa-chevron-right"></i> diagnosis </a>
-            <a href="#"> <i class="fas fa-chevron-right"></i> ambulance service </a>
-        </div>
-
-        <div class="box">
-            <h3>contact info</h3>
-            <a href="#"> <i class="fas fa-phone"></i> +880 1568-879-478 </a>
-            <a href="#"> <i class="fas fa-phone"></i> +880 1303-473-091 </a>
-            <a href="mailto:healthschool247@gmail.com"> <i class="fas fa-envelope"></i> HealthSchool247@gmail.com </a>
-            <a href="mailto:nafizulislam.swe@gmail.com"> <i class="fas fa-envelope"></i> NafizulIslam.swe@gmail.com </a>
-            <a href="https://www.google.com/maps/place/Amina+Hospital/@24.2982253,89.07934,19.93z/data=!4m13!1m7!3m6!1s0x
-            39fc1865e39031e7:0xeababc07e0970dc9!2sBonpara!3b1!8m2!3d24.2942372!4d89.0812158!3m4!1s0x39fc186ed5d9016b:0xd27
-            7d90ecc5a4a78!8m2!3d24.2983948!4d89.0792862" target=”_blank”> <i class="fas fa-map-marker-alt"></i> Rajshahi, Bangladesh - 6430 </a>
-        </div>
-
-        <div class="box">
-            <h3>follow us</h3>
-            <a href="#" target=”_blank”> <i class="fab fa-twitter"></i> twitter </a>
-            <a href="https://github.com/NafizNoyon/HospitalManagement" target=”_blank”> <i class="fab fa-linkedin"></i> Linkedin </a>
-            <a href="#" target=”_blank”> <i class="fab fa-youtube"></i>YouTube </a>
-            <a href="https://www.facebook.com/SWE480/" target=”_blank”> <i class="fab fa-facebook-f"></i> FaceBook </a>
-            <a href="#" target=”_blank”> <i class="fab fa-instagram"></i> Instagram </a>
-        </div>
-    </div>
-</section>
-<!-- footer section ends -->
-
-
-
-
-
-<!-- custom js file link  -->
-<script src="js/script.js"></script>
 </body>
 </html>
