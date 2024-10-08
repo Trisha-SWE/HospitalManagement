@@ -72,5 +72,8 @@ app.use ('/complain',complain);
 app.use ('/inbox',inbox);
 app.use ('/appointment',appointment);
 app.use('/receipt',receipt);
+app.use('/receipt',test);
+
+
 
 // app.use('/doctors/add_doctor',add_doc);
